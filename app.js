@@ -2,12 +2,19 @@ function add(a, b) {
     console.log(a + b);
 }
 
+const fatAdd = (a, b) => {console.log(a + b)};
+const fatSub = (a, b) => {console.log(a - b)};
+const fatDivide = (a, b) => {console.log(a / b)};
+const fatMult = (a, b) => {console.log(a * b)};
+const tenX = (value) => {console.log(value * 10)};
+
  let numberList = [1, 2, 3];
 
 numberList.map(function (value, index, array) {
     return value * 10;      //with let numbers set to above it returns 
     });                     // [10, 20, 30]
 
+const tenTimes = numberList.map(nums) => {console.log(nums * 10)};
     
 const numbers = [21, 37, 64, 99, 142];
 
